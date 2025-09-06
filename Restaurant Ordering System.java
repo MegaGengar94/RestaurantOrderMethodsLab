@@ -12,8 +12,12 @@ public class RestaurantOrder {
     }
  
     // Method to get the price of an item based on selection
-    public static double getItemPrice(int itemNumber) {
+    public static void getItemPrice(int itemNumber) {
         // TODO: Implement logic to return the price based on itemNumber
+        double 1 = 5.99
+        double 2 = 8.99
+        double 3 = 4.99
+        double 4 = 1.99
         return 0.0;
     }
  
@@ -29,10 +33,11 @@ public class RestaurantOrder {
             if (choice == 0) break;
             
             // TODO: Call getItemPrice() and update totalCost
-            
+            getItemPrice()totalCost;
         }
- 
+
         // TODO: Display total cost
+        System.out.println(totalCost)
     }
  
     // Overloaded method to apply a discount
