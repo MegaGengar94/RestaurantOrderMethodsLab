@@ -33,7 +33,7 @@ public class RestaurantOrder {
             if (choice == 0) break;
             
             // TODO: Call getItemPrice() and update totalCost
-            getItemPrice()totalCost;
+            getItemPrice(totalCost);
         }
 
         // TODO: Display total cost
@@ -57,3 +57,4 @@ public class RestaurantOrder {
         takeOrder();
     }
 }
+
